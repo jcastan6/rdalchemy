@@ -728,7 +728,7 @@ class RDKitMolProperties(object):
     fractioncsp3 = instrumented_property('fractioncsp3')
     inchi = instrumented_property('inchi')
     inchikey = instrumented_property('inchikey')
-
+    mol_formula = instrumented_property('formula')
     rdkit_fp = instrumented_property('rdkit_fp')
     morgan_fp = instrumented_property('morgan_fp')
 
